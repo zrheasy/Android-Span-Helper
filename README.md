@@ -5,6 +5,8 @@ Android轻量级Span框架，目前支持以下文本效果：
 
 ### 使用方式。
 
+[下载地址](https://github.com/zrheasy/Android-Span-Helper/releases/download/v1.0.0/span-helper.aar)
+
 #### 1.设置文字颜色。
 
 ```kotlin
@@ -16,7 +18,7 @@ SpanHelper(source)
 #### 2.设置文字背景颜色。
 
 ```kotlin
-        SpanHelper(source)
+SpanHelper(source)
     .setBackgroundColor(keyword, Color.GRAY)
     .into(mBinding.tvBackgroundColor)
 ```
